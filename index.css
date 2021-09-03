@@ -7,13 +7,7 @@
 }
 
 #nome {
-
     font-weight: bold;
-
-}
-
-.badges img {
-    border-radius: 10px;
 }
 
 a {
@@ -23,4 +17,14 @@ a {
 .introduzione{
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+#id {
+    border-radius: 10px;
+    width: 10rem;
+    height: 10rem;
 }
