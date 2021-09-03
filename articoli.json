@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "titolo":"Welcome",
+        "anteprima":"Welcome to my website. Feel free to poke around.",
+        "sezioni":[
+            "<img src=\"/assets/cover1.jpg\"></img>",
+            "<h1></h1>",
+            "<p>Welcome to my website. Feel free to poke around.</p>",
+            "<p>This is an experiment to create a simple but effective and easy-manteining landing page.<br>The home page has several links and info regarding myself, or i'll make a post for the latter.</p>",
+            "<p><i>Thanks for visiting</i></p>"
+        ]
+    }
+]
