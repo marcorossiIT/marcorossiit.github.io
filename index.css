@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.container{
+    margin-top: 10rem;
+    font-family: 'Quicksand', sans-serif;
+    color: #343a40; /* standard bootstrap text dark */
+}
+
+#nome {
+
+    font-weight: bold;
+
+}
+
+.badges img {
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.introduzione{
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
