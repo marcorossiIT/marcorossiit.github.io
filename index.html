@@ -17,6 +17,7 @@
 
 <body>
 
+  <span id="topPage-anchor"></span>
 
   <div class="container">
     <div class="row justify-content-center">
@@ -77,17 +78,37 @@
           <p>
 
             <a target="_blank" href="https://github.com/marcorossiIT">
-              <img class="my-1 mx-1 " alt="GitHub"
+              <img class="my-1 mx-1 " alt="GitHub" id="badge-github"
                 src="https://img.shields.io/badge/GitHub-181717?logo=github&amp;logoColor=white&amp;style=for-the-badge"></a>
             <a target="_blank" href="http://www.linkedin.com/in/marco-rossi-it/">
-              <img class="my-1 mx-1 " alt="Linkedin"
+              <img class="my-1 mx-1 " alt="Linkedin" id="badge-linkedin"
                 src="https://img.shields.io/badge/Linkedin-0A66C2?logo=linkedin&amp;logoColor=white&amp;style=for-the-badge"></a>
           </p>
         </div>
       </div>
     </div>
 
-    <div id="articolis" class="row row-cols-lg-2 row-cols-1 justify-content-center mt-5 gx-5 gy-3 ">
+    <div id="articolis" class="row row-cols-lg-2 row-cols-1 justify-content-center mt-5 gx-5 gy-3 "
+      data-masonry='{"percentPosition": true }'>
+
+
+      <div class="col ">
+        <article class="p-3 bg-lieve rounded-10">
+          <header>
+            <h4>Masonry and effects</h4>
+          </header>
+          <section>
+            <p>Effects are by far not my focus, but i found really useful understanding basic css combned with a bit of animations.<br>
+              It's just so easy to make organized and good looking designs with a couple of well put properties.
+            </p>
+          </section>
+          <footer class="entry-footer">
+            September 05, 2021&nbsp;·&nbsp;MR
+          </footer>
+        </article>
+      </div>
+
+
       <div class="col ">
         <article class="p-3 bg-lieve rounded-10">
           <header>
@@ -95,12 +116,12 @@
           </header>
           <section>
             <p>Feel free to poke around, more news on me later!<br>
-            This website is an <b> experiment</b> to create an everlasting landing page.<br>
-            <i>Welcome</i>
+              This website is an <b> experiment</b> to create an everlasting landing page.<br>
+              <i>Welcome</i>
             </p>
           </section>
           <footer class="entry-footer">
-            September 03, 2021&nbsp;·&nbsp;Marco Rossi
+            September 03, 2021&nbsp;·&nbsp;MR
           </footer>
         </article>
       </div>
@@ -108,11 +129,13 @@
     </div>
 
 
+
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
       <div class="col-md-4 d-flex align-items-center">
 
-        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <a href="#topPage-anchor" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
           <!--https://github.com/tabler/tabler-icons/find/master-->
+          <!--
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-big-left" width="24"
             height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
             stroke-linejoin="round">
@@ -120,6 +143,8 @@
             <path
               d="M20 15h-8v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h8a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1z" />
           </svg>
+          <span class="text-muted">Back</span>
+          -->
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-big-top" width="24"
             height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
             stroke-linejoin="round">
@@ -128,14 +153,15 @@
               d="M9 20v-8h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v8a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
           </svg>
         </a>
-        <span class="text-muted">Back</span>
 
       </div>
 
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-muted" href="#"> <img
-              src="https://visitor-badge.glitch.me/badge?page_id=thats.a.pageid.you.can.count.on" alt="visitor badge" />
-          </a></li>
+        <li class="ms-3"><a class="text-muted" href="#">
+            <img src="https://visitor-badge.glitch.me/badge?page_id=thats.a.pageid.you.can.count.on"
+              alt="visitor badge" />
+          </a>
+        </li>
       </ul>
     </footer>
 
@@ -176,6 +202,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
     -->
+
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+    integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+    async></script>
 </body>
 
 </html>
