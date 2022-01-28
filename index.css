@@ -2,12 +2,15 @@
 
 
 
-* {
+.container {
     margin-top : 5rem;
-    font-family: 'Quicksand', sans-serif;
     color      : #343a40;
     /* standard bootstrap text dark */
 }
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
 
 #nome {
     font-weight: bold;
