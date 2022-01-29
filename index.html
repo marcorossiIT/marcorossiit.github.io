@@ -15,6 +15,7 @@
     async></script>
 
   <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="index-print.css">
 
   <title>Marco Rossi IT</title>
 </head>
@@ -85,10 +86,15 @@
               src="https://img.shields.io/badge/React%20Native-61DAFB?logo=react&amp;logoColor=333333&amp;style=for-the-badge">
 
           </p>
-          <p><img class="my-1 mx-1 " alt="JavaScript"
+          <p>
+            <img class="my-1 mx-1 " alt="JavaScript"
               src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&amp;logoColor=333333&amp;style=for-the-badge">
             <img class="my-1 mx-1 " alt="Python"
               src="https://img.shields.io/badge/Python-3776AB?logo=python&amp;logoColor=white&amp;style=for-the-badge">
+            <img class="my-1 mx-1 " alt="SQL"
+              src="https://img.shields.io/badge/SQL-003B57?logo=mysql&amp;logoColor=white&amp;style=for-the-badge">
+            <img class="my-1 mx-1 " alt="DynamoDB"
+              src="https://img.shields.io/badge/AWS%97DynamoDB-4053D6?logo=amazondynamodb&amp;logoColor=white&amp;style=for-the-badge">
             <img class="my-1 mx-1 " alt="Java"
               src="https://img.shields.io/badge/Java-007396?logo=java&amp;logoColor=white&amp;style=for-the-badge">
             <img class="my-1 mx-1 " alt="C++"
@@ -104,29 +110,10 @@
     <div id="articolis" class="grid  ">
 
 
-      <!--
-        <div class="col ">
-          <article class="p-3 bg-lieve rounded-10">
-            <header>
-              <h4>Welcome</h4>
-            </header>
-            <section>
-              <p>Feel free to poke around, more news on me later!<br>
-                This website is an <b> experiment</b>. I think there'll be a discussion tab on the near future ready to
-                suggest something, keep poking around..<br>
-                <i>Welcome</i>
-              </p>
-            </section>
-            <footer class="entry-footer">
-              September 03, 2021&nbsp;·&nbsp;MR
-            </footer>
-          </article>
-        </div>
-   -->
       <article class="p-3 rounded-10 grid-item m-3 bg-lieve">
         <header>
           <h3>
-            Esperienze
+            Esperienze Lavorative
           </h3>
         </header>
         <ul>
@@ -154,8 +141,9 @@
                   <div class="col-lg-6">
                     <dt>Ruoli ricoperti</dt>
 
-                    <dd>Sviluppatore full-stack</dd>
+                    <dd>CoFounder</dd>
                     <dd>Direzione dell'area tecnica</dd>
+                    <dd>Sviluppatore full-stack</dd>
                     <dd>Assistenza in area marketing e controllo nelle attività di socicetà</dd>
 
                   </div>
@@ -178,7 +166,7 @@
                       Lambda,
                       DynamoDB, RDS, EC2)</dd>
                     <dd> Svilupp app web e native Windows e Mobile </dd>
-                    <dd> Sito web della società <svg xmlns="http://www.w3.org/2000/svg"
+                    <dd class="hide-in-print"> Sito web della società <svg xmlns="http://www.w3.org/2000/svg"
                         class="icon icon-tabler icon-tabler-arrow-big-right" width="24" height="24" viewBox="0 0 24 24"
                         stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -200,6 +188,42 @@
           <li>
             <section>
               <h5>
+                Pharmacov
+              </h5>
+              <h6>
+                Gennaio 2020 &rarr; Aprile 2020
+              </h6>
+            </section>
+            <section class="descrizione-esperienza">
+              <p>
+                Supporto a dottori e farmacisti, distribuito dal Marzo 2020 in occasione della pandemia da
+                covid19 su richiesta della FOFI (Federazione Ordini Farmacisti Italiani) e sviluppato, senza
+                scopo di lucro, per supportare i dottori nella scelta delle cure mediche più adatte
+                collegandoli ad una rete di farmacisti specializzati
+              </p>
+              <dl>
+                <div class="row " data-masonry='{"percentPosition": true }'>
+                  <div class="col-lg-6">
+                    <dt>Ruoli ricoperti</dt>
+                    <dd>Sviluppatore full-stack</dd>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <dt>Competenze acquisite/esercitate</dt>
+                    <dd> Comunicazione con stakeholder ambito medicina </dd>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <dt>Esperienze tecniche</dt>
+                    <dd> Sistema di prenotazione con Wordpress </dd>
+                  </div>
+                </div>
+              </dl>
+            </section>
+          </li>
+          <li>
+            <section>
+              <h5>
                 ilPostUniversitario
               </h5>
               <h6>
@@ -215,6 +239,12 @@
               </p>
               <dl>
                 <div class="row " data-masonry='{"percentPosition": true }'>
+                  <div class="col-lg-6">
+                    <dt>Ruoli ricoperti</dt>
+                    <dd>CoFounder</dd>
+                    <dd>Sviluppatore full-stack</dd>
+                  </div>
+
                   <div class="col-lg-6">
                     <dt>Competenze acquisite/esercitate</dt>
                     <dd> Skill di comunicazione con attori esterni · Team Leadership · Problem Solving</dd>
@@ -263,6 +293,144 @@
         <footer class="entry-footer">
 
 
+        </footer>
+      </article>
+
+      <article class="p-3 rounded-10 grid-item m-3 bg-lieve">
+        <header>
+          <h3>
+            Progetti Universitari in gruppo
+          </h3>
+          <p>Progetti svolti duranti il periodo universitario, in gruppo, per materie di indirizzo</p>
+        </header>
+        <ul>
+          <li>
+            <section>
+              <h5>
+                Server HTTP1.1
+              </h5>
+
+            </section>
+            <section class="descrizione-esperienza">
+              <p>
+                Progettazione e creazione in C di un prototipo di server HTTP, in grado di rispondere alle richieste
+                GET, con mantenimento della connessione, multithread, ridimensionamento di immagini, cache con hashmap.
+                <br>Lavoro svolto in team di quattro persone, successivamente presentato attraverso slides e
+                documentazione dettagliata.
+              </p>
+              <dl>
+                <div class="row " data-masonry='{"percentPosition": true }'>
+
+                  <div class="col-lg-6">
+                    <dt>Competenze acquisite/esercitate</dt>
+                    <dd>Lavoro in team</dd>
+                  </div>
+                  <div class="col-lg-6">
+                    <dt>Esperienze tecniche</dt>
+                    <dd>Approfondimento del protocollo HTTP1.1</dd>
+                    <dd>Introduzione a Git</dd>
+                    <dd>Progettazione e sviluppo di un sistema in C</dd>
+                  </div>
+                </div>
+              </dl>
+
+            </section>
+          </li>
+          <li>
+            <section>
+              <h5>
+                Algoritmo di ricerca del minimo albero ricoprente
+              </h5>
+
+            </section>
+            <section class="descrizione-esperienza">
+              <p>
+                Applicazione degli studi sui grafi in gruppo, attraverso la progettazione, e realizzazione in python, di
+                un algoritmo di ricerca del minimo albero ricoprente.<br>
+                Interfaccia su riga di comando e GUI, visualizzazione del grafo, relazione con grafici delle
+                performance.
+              </p>
+              <dl>
+                <div class="row " data-masonry='{"percentPosition": true }'>
+
+                  <div class="col-lg-6">
+                    <dt>Competenze acquisite/esercitate</dt>
+                    <dd>Lavoro in team</dd>
+                  </div>
+                  <div class="col-lg-6">
+                    <dt>Esperienze tecniche</dt>
+                    <dd>Approfondimento degli algoritmi di ricerca su grafi</dd>
+                    <dd>Sviluppo in Python</dd>
+                  </div>
+                </div>
+              </dl>
+
+            </section>
+          </li>
+          <li>
+            <section>
+              <h5>
+                Automobilina automatica
+              </h5>
+
+            </section>
+            <section class="descrizione-esperienza">
+              <p>
+                Progetto di fine corso di automazione.<br>
+                Attraverso un Arduino, sensori di distanza ad ultrasuoni ed alcuni motori e servomotori, abbiamo
+                costruito una piccola automobilina che dopo aver controllato quale direzione è migliore, sceglie se
+                andare a destra o sinistra, là dove può fare più strada
+              </p>
+              <dl>
+                <div class="row " data-masonry='{"percentPosition": true }'>
+
+                  <div class="col-lg-6">
+                    <dt>Competenze acquisite/esercitate</dt>
+                    <dd>Lavoro in team</dd>
+                  </div>
+                  <div class="col-lg-6">
+                    <dt>Esperienze tecniche</dt>
+                    <dd>Esperienza di elettronica</dd>
+                    <dd>Sviluppo in Arduino</dd>
+                  </div>
+                </div>
+              </dl>
+
+            </section>
+          </li>
+          <li>
+            <section>
+              <h5>
+                Prima app android
+              </h5>
+
+            </section>
+            <section class="descrizione-esperienza">
+              <p>
+                Come prima app, ma anche come lavoro in team, la consegna è stata creare una app che facesse da client
+                ad un piccolo database di informazioni per generare un codice fiscale. Successivamente un'altra app per
+                un wallpaper animato.
+              </p>
+              <dl>
+                <div class="row " data-masonry='{"percentPosition": true }'>
+
+                  <div class="col-lg-6">
+                    <dt>Competenze acquisite/esercitate</dt>
+                    <dd>Lavoro in team e singolo</dd>
+                  </div>
+                  <div class="col-lg-6">
+                    <dt>Esperienze tecniche</dt>
+                    <dd>Gestione di un semplice database SQLite</dd>
+                    <dd>Sviluppo in Android Studio</dd>
+                  </div>
+                </div>
+              </dl>
+
+            </section>
+          </li>
+
+        </ul>
+        <footer class="entry-footer">
         </footer>
       </article>
 
@@ -333,8 +501,130 @@
         </footer>
       </article>
 
-    </div>
+      <article class="p-3 rounded-10 grid-item m-3 bg-lieve">
+        <header>
+          <h3>
+            Attestati
+          </h3>
+        </header>
+        <ul>
+          <li>
+            <section>
+              <h5>
+                Cisco CCNA Discovery 2
+              </h5>
+              <h6>
+                19 Novembre 2014
+              </h6>
+            </section>
+            <section class="descrizione-esperienza">
+              <p>
+              </p>
+              <dl>
+                <div class="row " data-masonry='{"percentPosition": true }'>
+                  <div class="col-lg-6">
+                    <dt>WORKING AT A SMALL-TO-MEDIUM BUSINESS OR ISP</dt>
+                    <dd>Livello avanzato nella gestione di network dedicati a piccole e medie imprese.</dd>
+                  </div>
 
+                </div>
+              </dl>
+
+            </section>
+          </li>
+
+          <li>
+            <section>
+              <h5>
+                Cisco CCNA Discovery 1
+              </h5>
+              <h6>
+                Giugno 2014
+              </h6>
+            </section>
+            <section class="descrizione-esperienza">
+              <p>
+              </p>
+              <dl>
+                <div class="row " data-masonry='{"percentPosition": true }'>
+                  <div class="col-lg-6">
+                    <dt>Networking for Home and Small Business</dt>
+                    <dd>Gestione di network dedicati ad installazioni casalinghe o di piccole imprese</dd>
+                  </div>
+
+                </div>
+              </dl>
+
+            </section>
+          </li>
+
+          <li>
+            <section>
+              <h5>
+                ECDL
+              </h5>
+              <h6>
+                22 Maggio 2012
+              </h6>
+            </section>
+            <section class="descrizione-esperienza">
+              <p>
+              </p>
+              <dl>
+                <div class="row " data-masonry='{"percentPosition": true }'>
+                  <div class="col-lg-6">
+                    <dt>EUROPEAN COMPUTER DRIVING LICENCE</dt>
+                    <dd>Rilasciato dalla AICA (Associazione Italiana per l’Informatica ed il Calcolo Automatico) per le
+                      competenze nell’uso del computer e dei principali software di produttività personali, quali la
+                      suite di Microsoft Office.</dd>
+                  </div>
+
+                </div>
+              </dl>
+
+            </section>
+          </li>
+
+        </ul>
+        <footer class="entry-footer">
+        </footer>
+      </article>
+
+      <article class="p-3 rounded-10 grid-item m-3 bg-lieve">
+        <header>
+          <h3>
+            Lingue
+          </h3>
+        </header>
+        <ul>
+          <li>
+            <section>
+              <h5>
+                Italiano
+              </h5>
+              <h6>
+                Madrelingua
+              </h6>
+            </section>
+          </li>
+ <li>
+            <section>
+              <h5>
+                Inglese
+              </h5>
+              <h6>
+                B1
+              </h6>
+            </section>
+          </li>
+
+        </ul>
+        <footer class="entry-footer">
+        </footer>
+      </article>
+
+
+    </div>
 
 
 
