@@ -1,0 +1,3 @@
+[submodule "Theatron-Controller"]
+	path = Theatron-Controller
+	url = https://github.com/marcorossiIT/Theatron-Controller.git
